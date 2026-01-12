@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.navbar-brand img {
+    width: 110px;
+    height: 90px;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #e9f7fd;
+}
+
+.btn-outline-secondary {
+    margin-right: 5px;
+}
+
+.card-deck {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+.card {
+    flex: 1 0 21%; /* Adjust this percentage to change the number of cards per row */
+    margin-bottom: 20px;
+}
+.card img {
+    height: 300px;
+    object-fit: cover;
+}
+
+.card-link {
+    color: inherit;
+    text-decoration: none;
+}
+
+.card-link:hover {
+    text-decoration: none;
+}
+
+.card {
+    cursor: pointer;
+}
+
+
+
+

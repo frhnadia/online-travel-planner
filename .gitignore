@@ -1,0 +1,10 @@
+# Ignore database config
+db_connect.php
+
+# Ignore OS / editor files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Ignore XAMPP temp files
+*.log

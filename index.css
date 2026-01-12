@@ -1,0 +1,70 @@
+body {
+    background: linear-gradient(to right, rgba(73,155,172,1) 42%, rgba(242,253,255,1) 50%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+body p {
+    color: #555;
+}
+
+
+.card {
+    width: 400px;
+    height: 440px;
+    border: 2px solid rgba(225, 255, 255, .5);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+    margin-left: 250px;
+}
+
+.card.active {
+    height: 520px;
+}
+
+.card-body {
+    width: 100%;
+    padding: 65px;
+    background-color: #D4F1F4;
+}
+
+.card-title {
+    font-size: 2em;
+    color: #555;
+    text-align: center;
+}
+
+.logo-container {
+    position: absolute;
+    top: 20px;
+    left: 150px;
+    margin-top: 120px;
+    text-align: center;
+}
+
+.logo-container img {
+    width: 150px;
+    height: 180px;
+}
+
+.logo-container h2 {
+    font-size: 24px;
+    color: white;
+}
+
+.modal-content {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-register {
+    font-size: .9em;
+    color: #162938;
+    text-align: center;
+    font-weight: 500;
+    margin: 25px 0 10px;
+}

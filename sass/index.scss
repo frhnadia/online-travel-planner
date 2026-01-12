@@ -1,0 +1,16 @@
+//Custom variables
+$primary: #C29938;
+
+//Import the functions and variables
+@import '../node_modules/bootstrap/scss/functions';
+@import '../node_modules/bootstrap/scss/variables';
+
+$custom-login-button: (
+    "altprimary": #4CAF50,
+    "altsecondary": #555,
+);
+
+$theme-colors: map-merge($custom-login-button, $theme-colors);
+
+//Import Bootstrap
+@import '../node_modules/bootstrap/scss/bootstrap';

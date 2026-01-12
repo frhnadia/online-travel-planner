@@ -1,0 +1,31 @@
+@import "node_modules/bootstrap/scss/functions";
+
+@import "node_modules/bootstrap/scss/variables";
+
+$theme-colors: (
+  "primary": #4CAF50,
+  "secondary": #6c757d,
+  "success": #5cb85c,
+  "info": #5bc0de,
+  "warning": #f0ad4e,
+  "danger": #d9534f,
+  "light": #f7f7f7,
+  "dark": #292b2c
+);
+
+$body-bg: #f0f0f0;
+$font-family-base: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-size-base: 1rem;
+
+.custom-login-button {
+  background-color: #4CAF50; // Green background
+  color: white; // White text color
+  border-radius: 12px; // Rounded corners
+  padding: 10px 20px; // Padding
+  font-size: 16px; // Font size
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); // Box shadow
+  transition: background-color 0.3s; // Transition for hover effectx
+}
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
